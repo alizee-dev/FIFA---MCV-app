@@ -49,7 +49,8 @@ This project helped me understand:
 git clone <your-repo-url>
 cd fifaApp
 npm install
-npm run dev```
+npm run dev
+```
 
 
 ## Setup
