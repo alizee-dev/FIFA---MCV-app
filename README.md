@@ -68,11 +68,6 @@ URI=your_mongodb_connection_string
 ![FIFA Screenshot 3](./public/fifa3.png)  
 
 
-## Live Demo
-
-View the live page here: [FIFA Stats Live](https://alizee-dev.github.io/FIFA---MCV-app/) 
-
-
 ## What I Learned
 
 - First experience with MVC architecture  
