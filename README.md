@@ -57,7 +57,7 @@ npm run dev
 Create a `.env` file in the root directory with:
 
 ```env
-URI=your_mongodb_connection_string
+URI=your_mongodb_connection_string ```
 
 
 ## 📸 Screenshots
