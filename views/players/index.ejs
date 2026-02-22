@@ -1,0 +1,38 @@
+<!-- Code renvoyé par la route players.mjs  /
+    Dans la section body du Layout
+    Pour l'url http://localhost:3000/players  -->
+
+<h2 class = "page-header">Search player</h2>
+<form action="/players" method = "GET">
+    <label>Name</label>
+    <input type="text" name = "name" value="<%= searchOptions.name %>" >
+    <button type = "submit">Search</button>
+</form>
+<br>
+<% players.forEach(player => { %>
+    <div>
+        <img src="<%= player.playerImg %>" alt="<%= player.name %>'s Profile Picture">
+    </div>
+    <div>Name : <%= player.name %></div>
+    <div>Nationality : <%= player.nationality %></div>
+    <div>Club : <%= player.club %></div>
+    <div>OverallRating : <%= player.overallRating %></div>
+        <div>
+        <img src="<%= player.clubImg %>" alt="<%= player.club %>'s Club Picture" class="icone">
+    </div>
+<% }) %>
+
+<div class="pagination">
+    <!-- Lien "Previous" -->
+    <% if (previousPage) { %>
+        <a href="?page=<%= previousPage.page %>&limit=<%= previousPage.limit %>" class="previous">Previous</a>
+    <% } %>
+  
+    <!-- Lien "Next" -->
+    <% if (nextPage) { %>
+        <a href="?page=<%= nextPage.page %>&limit=<%= nextPage.limit %>" class="next">Next</a>
+    <% } %>
+  </div>
+
+
+  <!--https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application-fr-->
