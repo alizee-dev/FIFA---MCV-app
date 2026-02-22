@@ -49,19 +49,18 @@ This project helped me understand:
 git clone <your-repo-url>
 cd fifaApp
 npm install
-npm run dev
+npm run dev```
 
 
 ## Setup
 
 Create a `.env` file in the root directory with:
 
-```
 env
 URI=your_mongodb_connection_string
 
 
-## 📸 Screenshots
+## Screenshots
 
 ![FIFA Screenshot 1](./public/fifa1.png)  
 ![FIFA Screenshot 2](./public/fifa2.png)  
@@ -70,9 +69,7 @@ URI=your_mongodb_connection_string
 
 ## Live Demo
 
-View the live page here: [FIFA Stats Live](https://alizee-dev.github.io/fifaApp/)  
-
-*(replace the URL above with your actual GitHub Pages URL if different)*
+View the live page here: [FIFA Stats Live](https://alizee-dev.github.io/FIFA---MCV-app/) 
 
 
 ## What I Learned
