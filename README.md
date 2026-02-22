@@ -45,7 +45,7 @@ This project helped me understand:
 
 ## Installation
 
-```bash
+```
 git clone <your-repo-url>
 cd fifaApp
 npm install
